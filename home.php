@@ -56,19 +56,19 @@
 		}
 		</style>
 		
-		<title>Home : NodeMCU V3 ESP8266 / ESP12E with MYSQL Database</title>
+		<title>System</title>
 	</head>
 	
 	<body>
-		<h2>NodeMCU V3 ESP8266 / ESP12E with MYSQL Database</h2>
+		<h2 style="text-align:center">Smart Attendance System for Student</h2>
 		<ul class="topnav">
-			<li><a class="active" href="home.php">Home</a></li>
+			<li><a class="active" href="index.php">Home</a></li>
 			<li><a href="user data.php">User Data</a></li>
 			<li><a href="registration.php">Registration</a></li>
 			<li><a href="read tag.php">Read Tag ID</a></li>
 		</ul>
 		<br>
-		<h3>Welcome to NodeMCU V3 ESP8266 / ESP12E with MYSQL Database</h3>
+		<h3 style="text-align:center">Welcome ...!!! Successful Login.</h3>
 		
 		<img src="home ok ok.jpg" alt="" style="width:55%;">
 	</body>

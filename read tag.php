@@ -121,6 +121,11 @@
 									<td style="font-weight:bold">:</td>
 									<td align="left">--------</td>
 								</tr>
+								<tr>
+									<td align="left" class="lf">Days Attended</td>
+									<td style="font-weight:bold">:</td>
+									<td align="left">--------</td>
+								</tr>
 							</table>
 						</td>
 					</tr>

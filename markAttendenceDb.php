@@ -14,10 +14,10 @@
         $pdo = Database::connect();
 		$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         
-        $sql="UPDATE table_nodemcu_rfidrc522_mysql SET count=count+1 WHERE id=$id";
+        $sql="UPDATE table_nodemcu_rfidrc522_mysql SET count=count+1 WHERE id=id";
 		$q = $pdo->prepare($sql);
 		$q->execute();
 		Database::disconnect();
-		header("Location: user data.php");
+		header("Location: attendenceMark.php");
     }
 ?>

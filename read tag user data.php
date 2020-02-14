@@ -21,6 +21,7 @@
 		$data['gender']="--------";
 		$data['email']="--------";
 		$data['mobile']="--------";
+		$data['count']="---------";
 	} else {
 		$msg = null;
 	}
@@ -76,6 +77,11 @@
 									<td align="left" class="lf">Mobile Number</td>
 									<td style="font-weight:bold">:</td>
 									<td align="left"><?php echo $data['mobile'];?></td>
+								</tr>
+								<tr>
+									<td align="left" class="lf">Days Attendes</td>
+									<td style="font-weight:bold">:</td>
+									<td align="left"><?php echo $data['count'];?></td>
 								</tr>
 							</table>
 						</td>
